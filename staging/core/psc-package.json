@@ -3,12 +3,14 @@
     "set": "psc-0.11.1",
     "source": "https://github.com/purescript/package-sets.git",
     "depends": [
+        "aff",
         "arrays",
         "bifunctors",
         "console",
         "const",
         "contravariant",
         "control",
+        "datetime",
         "distributive",
         "eff",
         "either",
@@ -32,6 +34,7 @@
         "math",
         "maybe",
         "monoid",
+        "parallel",
         "prelude",
         "profunctor",
         "proxy",
@@ -47,6 +50,7 @@
         "tuples",
         "typelevel-prelude",
         "unfoldable",
+        "unsafe-coerce",
         "validation"
     ]
 }
